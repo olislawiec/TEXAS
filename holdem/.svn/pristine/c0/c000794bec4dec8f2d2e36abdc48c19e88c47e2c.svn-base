@@ -1,0 +1,120 @@
+package Player;
+
+import Table.Hand;
+
+public class Bot implements Player{
+	private int id;
+	private boolean wasBet;
+
+	public Bot(int id) {
+		this.id=id;
+	}
+
+	@Override
+	public Hand getHand() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setHand(Hand hand) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
+	public void setId(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getChips() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setChips(int chips) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getBet() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setBet(int bet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void makeBet(int bet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void makeRaise(int bet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void makeCall(int bet) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void makeCheck() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void makeAllin() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void makeFold() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public long getId() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	public int play(int maxBet)
+	{
+		return 0;
+	}
+
+	@Override
+	public boolean wasBet() {
+		// TODO Auto-generated method stub
+		return wasBet;
+	}
+
+	@Override
+	public void setWasBet(boolean b) {
+		wasBet=b;
+		
+	}
+
+	@Override
+	public void showCards() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
