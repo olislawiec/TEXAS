@@ -1,0 +1,26 @@
+package Player;
+
+
+import Table.Hand;
+public interface Player {
+	
+	
+	public Hand getHand();
+	public void setHand(Hand hand);
+	public long getId();
+	public void setId(int id);
+	public int getChips();
+	public void setChips(int chips);
+	public int getBet();
+	public void setBet(int bet);
+	public void makeBet(int bet);
+	public void makeRaise(int bet);
+	public void makeCall(int bet);
+	public void makeCheck();
+	public void makeAllin();
+	public void makeFold();
+	public int play(int maxBet);
+	public boolean wasBet();
+	public void setWasBet(boolean b);
+	public void showCards();
+}
