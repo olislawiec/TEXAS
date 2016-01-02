@@ -139,7 +139,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		getContentPane().add(cCard5);
 		communityCards.add(cCard5);
 		
-		lblMyBet = new JLabel("Wait for others players");
+		lblMyBet = new JLabel("0");
 		lblMyBet.setHorizontalAlignment(SwingConstants.CENTER);
 		lblMyBet.setFont(new Font("Tahoma", Font.BOLD, 12));
 		lblMyBet.setForeground(new Color(255, 255, 255));

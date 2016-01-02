@@ -22,14 +22,15 @@ public class PowerOfCardsTest {
 		
     	Card[] hand=new Card[2];
     	Card[] table=new Card[5];
-    	hand[0]=new Card(7,1,0);
-    	hand[1]=new Card(8,1,0);
-    	table[0]=new Card(9,1,0);
-    	table[1]=new Card(10,1,0);
+    	hand[0]=new Card(2,1,0);
+    	hand[1]=new Card(2,1,0);
+    	table[0]=new Card(3,1,0);
+    	table[1]=new Card(3,1,0);
     	table[2]=new Card(11,1,0);
     	table[3]=new Card(12,1,0);
-    	table[4]=new Card(13,1,0);    	
+    	table[4]=new Card(10,1,0);    	
     	PowerOfCards power=new PowerOfCards(table);
+    	System.out.println("Reka: "+power.determineHandRank(hand));
     	assertEquals(new BigInteger("9999999999999"),(power.determineHandRank(hand)));		
 	}
 	@Test

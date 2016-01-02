@@ -206,6 +206,11 @@ public class Human extends Thread implements Player{
 				}
 				break;
 			}
+			case "hideCards":
+			{
+				hideCards();
+				break;
+			}
 			default:
 			{
 			break;	
@@ -220,7 +225,13 @@ public class Human extends Thread implements Player{
 		
 	}
 	private void setPossibleAction(int maxBet) {
+		if((maxBet+1)<chips)
+		{
 		gui.slider.setValue(maxBet+1);
+		}else
+		{
+			gui.slider.setValue(chips);
+		}
 		gui.btnFold.setEnabled(true);
 		gui.btnAllin.setEnabled(true);
 
@@ -326,6 +337,13 @@ public class Human extends Thread implements Player{
 	public Card[] getArrayHand() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public void hideCards() {
+		for(int i=0;i<gui.communityCards.size();i++)
+			gui.communityCards.get(i).setVisible(false);
+		
 	}
 	
 }

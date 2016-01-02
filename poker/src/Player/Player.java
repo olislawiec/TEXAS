@@ -2,7 +2,7 @@ package Player;
 
 import Table.Card;
 
-public interface Player {
+public interface Player{
 	
 	public long getId();
 	public void setId(int id);
@@ -26,4 +26,5 @@ public interface Player {
 	public void setSomeoneBet(boolean b);
 	public void sentChanges(int[] bets);
 	public Card[] getArrayHand();
+	public void hideCards();
 }

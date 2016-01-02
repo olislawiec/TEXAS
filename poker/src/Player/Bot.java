@@ -142,4 +142,10 @@ public class Bot implements Player{
 		return null;
 	}
 
+	@Override
+	public void hideCards() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
