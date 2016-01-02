@@ -39,12 +39,12 @@ public class HumanThread extends Thread implements Player{
 
 public void run()
 {
-	
+	/*
 		while(true)
 		{
 			
 		}
-	
+	*/
 }
 public int play(int maxBet)
 {
@@ -102,7 +102,7 @@ public int play(int maxBet)
 		}
 		} 
 	catch (IOException e) {
-		System.out.println("Disconnect");
+		//System.out.println("Disconnect");
 		}
 	
 	return newBet;
@@ -123,9 +123,9 @@ public void setHand(Hand hand) {
 	out.println(hand.getCard(1).getNo());
 	
 }
-@Override
-public long getId() {
-return id;	
+public long getId()
+{
+	return id;
 }
 public void setId(int id) {
 	this.id=id;
@@ -232,4 +232,11 @@ public void sentChanges(int[] bets) {
 		out.println(bets[i]);
 	}
 }
+
+@Override
+public void hideCards() {
+	out.println("hideCards");
+	
+}
+
 }
