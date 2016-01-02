@@ -150,7 +150,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		lblP1Cards.setFont(new Font("Tahoma", Font.BOLD, 9));
 		lblP1Cards.setForeground(new Color(255, 255, 255));
 		lblP1Cards.setHorizontalAlignment(SwingConstants.LEFT);
-		lblP1Cards.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\b2fv.png"));
+		lblP1Cards.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\b2fv.png"));
 		lblP1Cards.setBounds(10, 152, 89, 48);
 		getContentPane().add(lblP1Cards);
 		players.add(lblP1Cards);
@@ -159,7 +159,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		lblP2Cards.setFont(new Font("Tahoma", Font.BOLD, 9));
 		lblP2Cards.setForeground(new Color(255, 255, 255));
 		lblP2Cards.setHorizontalAlignment(SwingConstants.LEFT);
-		lblP2Cards.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\b2fv.png"));
+		lblP2Cards.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\b2fv.png"));
 		lblP2Cards.setBounds(10, 93, 89, 48);
 		getContentPane().add(lblP2Cards);
 		players.add(lblP2Cards);
@@ -171,7 +171,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		lblP3Cards.setHorizontalAlignment(SwingConstants.CENTER);
 		lblP3Cards.setVerticalTextPosition(JLabel.BOTTOM);
 		lblP3Cards.setHorizontalTextPosition(JLabel.CENTER);
-		lblP3Cards.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\b2fv.png"));
+		lblP3Cards.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\b2fv.png"));
 		lblP3Cards.setBounds(38, 11, 79, 71);
 		getContentPane().add(lblP3Cards);
 		players.add(lblP3Cards);
@@ -183,7 +183,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		lblP4Cards.setHorizontalAlignment(SwingConstants.CENTER);
 		lblP4Cards.setVerticalTextPosition(JLabel.BOTTOM);
 		lblP4Cards.setHorizontalTextPosition(JLabel.CENTER);
-		lblP4Cards.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\b2fv.png"));
+		lblP4Cards.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\b2fv.png"));
 		lblP4Cards.setBounds(127, 11, 76, 71);
 		getContentPane().add(lblP4Cards);
 		players.add(lblP4Cards);
@@ -195,7 +195,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		lblP5Cards.setHorizontalAlignment(SwingConstants.CENTER);
 		lblP5Cards.setVerticalTextPosition(JLabel.BOTTOM);
 		lblP5Cards.setHorizontalTextPosition(JLabel.CENTER);
-		lblP5Cards.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\b2fv.png"));
+		lblP5Cards.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\b2fv.png"));
 		lblP5Cards.setBounds(208, 11, 72, 71);
 		getContentPane().add(lblP5Cards);
 		players.add(lblP5Cards);
@@ -207,7 +207,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		lblP6Cards.setHorizontalAlignment(SwingConstants.CENTER);
 		lblP6Cards.setVerticalTextPosition(JLabel.BOTTOM);
 		lblP6Cards.setHorizontalTextPosition(JLabel.CENTER);
-		lblP6Cards.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\b2fv.png"));
+		lblP6Cards.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\b2fv.png"));
 		lblP6Cards.setBounds(297, 11, 72, 71);
 		getContentPane().add(lblP6Cards);
 		players.add(lblP6Cards);
@@ -219,7 +219,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		lblP7Cards.setHorizontalAlignment(SwingConstants.CENTER);
 		lblP7Cards.setVerticalTextPosition(JLabel.BOTTOM);
 		lblP7Cards.setHorizontalTextPosition(JLabel.CENTER);
-		lblP7Cards.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\b2fv.png"));
+		lblP7Cards.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\b2fv.png"));
 		lblP7Cards.setBounds(379, 11, 73, 71);
 		getContentPane().add(lblP7Cards);
 		players.add(lblP7Cards);
@@ -230,7 +230,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		lblP8Cards.setHorizontalAlignment(SwingConstants.RIGHT);
 		lblP8Cards.setVerticalTextPosition(JLabel.CENTER);
 		lblP8Cards.setHorizontalTextPosition(JLabel.LEFT);
-		lblP8Cards.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\b2fv.png"));
+		lblP8Cards.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\b2fv.png"));
 		lblP8Cards.setBounds(416, 93, 79, 51);
 		getContentPane().add(lblP8Cards);
 		players.add(lblP8Cards);
@@ -241,7 +241,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		lblP9Cards.setHorizontalAlignment(SwingConstants.RIGHT);
 		lblP9Cards.setVerticalTextPosition(JLabel.CENTER);
 		lblP9Cards.setHorizontalTextPosition(JLabel.LEFT);
-		lblP9Cards.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\b2fv.png"));
+		lblP9Cards.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\b2fv.png"));
 		lblP9Cards.setBounds(406, 151, 89, 48);
 		getContentPane().add(lblP9Cards);
 		players.add(lblP9Cards);
@@ -253,7 +253,7 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 		getContentPane().add(lblMyChips);
 		
 		lblBackground = new JLabel("");
-		lblBackground.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\bacground.jpg"));
+		lblBackground.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\bacground.jpg"));
 		lblBackground.setBounds(0, 0, 504, 301);
 		getContentPane().add(lblBackground);
 		for(int i =0;i<players.size();i++)
@@ -341,12 +341,12 @@ public class HumanGui extends JFrame implements ActionListener,ChangeListener{
 			i++;
 		}
 		communityCards.get(i).setVisible(true);
-		communityCards.get(i).setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\"+icon+".png"));
+		communityCards.get(i).setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\"+icon+".png"));
 	}
 
 	public void showMyCards(int card1, int card2) {
-		lblCard1.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\"+card1+".png"));
-		lblCard2.setIcon(new ImageIcon("D:\\Programowanie\\TexasHoldem\\Small cards\\"+card2+".png"));
+		lblCard1.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\"+card1+".png"));
+		lblCard2.setIcon(new ImageIcon("C:\\Users\\domin\\Desktop\\Pokerfinal\\Small cards\\"+card2+".png"));
 		lblCard1.setVisible(true);
 		lblCard2.setVisible(true);
 	}
